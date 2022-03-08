@@ -2,11 +2,13 @@ package negocio;
 
 public class Usuario extends Pessoa {
 	
-	public Usuario(String n, int c, Telefone t) {
+	public Usuario(String n, int c, Telefone t, Cartao ca) {
 		nome = n;
-		cpf = c;
 		numTel = t;
+		cpf = c;
+		cartao = ca;
 	}
+	
 	
 	public String getNome() {
 		return nome;

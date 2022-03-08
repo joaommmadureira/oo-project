@@ -5,6 +5,10 @@ public class Localizacao {
 	private String estado;
 	private String cidade;
 	
+	public Localizacao(String e, String c) {
+		estado = e;
+		cidade = c;
+	}
 	
 	public String getEstado() {
 		return estado;

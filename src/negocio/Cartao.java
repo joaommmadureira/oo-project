@@ -12,6 +12,10 @@ public class Cartao {
 		dataVencimento = d;
 	}
 	
+	public Cartao() {
+		
+	}
+	
 	//gets e sets dos atributos
 	public int getNumeroCartao() {
 		return numeroCartao;

@@ -34,13 +34,4 @@ public class Telefone {
 		this.numero = numero;
 	}
 	
-	public void cadastrar() {
-		
-		
-	}
-	
-	public void deletar() {
-		
-		
-	}
 }

@@ -3,11 +3,14 @@ package negocio;
 public class Anfitriao extends Pessoa{
 	private float avaliacao;
 	
-	public Anfitriao(String n, int c, Telefone t) {
+	public Anfitriao(String n, float a, int c, Telefone t, Cartao ca) {
 		nome = n;
-		cpf = c;
+		avaliacao = a;
 		numTel = t;
+		cpf = c;
+		cartao = ca;
 	}
+	
 
 	public float getAvaliacao() {
 		return avaliacao;
